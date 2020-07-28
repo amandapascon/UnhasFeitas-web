@@ -4,7 +4,7 @@ import { Route, BrowserRouter, Switch, Redirect } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Login from './pages/Login'
-import Singin from './pages/Singin'
+import Signin from './pages/Signin'
 //import Chekin from './pages/Chekin'
 //import Newpackage from './pages/Newpackage'
 
@@ -17,7 +17,7 @@ ReactDOM.render(
         <Switch>
           <Route component={Home} path='/' exact />
           <Route component={Login} path='/login' exact />
-          <Route component={Singin} path='/singin' exact />
+          <Route component={Signin} path='/signin' exact />
           <Redirect push={false} to='/' />
         </Switch>
       </BrowserRouter>

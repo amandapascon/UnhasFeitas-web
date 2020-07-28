@@ -16,8 +16,8 @@ export default class Home extends Component {
     
   }
 
-  singin(){
-    window.location.href = `./singin`
+  signin(){
+    window.location.href = `./signin`
   }
 
   login(){
@@ -35,7 +35,7 @@ export default class Home extends Component {
               </div>
               <img src={require('../assets/logo.png')} />
             <ButtonGroup disableElevation variant="contained" color="text.disabled">
-              <Button onClick={this.singin}>Singin</Button>
+              <Button onClick={this.signin}>Signin</Button>
               <Button onClick={this.login}>Login</Button>
             </ButtonGroup>
            </div>
