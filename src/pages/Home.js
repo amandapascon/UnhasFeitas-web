@@ -35,8 +35,8 @@ export default class Home extends Component {
               </div>
               <img src={require('../assets/logo.png')} />
             <ButtonGroup disableElevation variant="contained" color="text.disabled">
-              <Button onClick={this.signin}>Signin</Button>
-              <Button onClick={this.login}>Login</Button>
+              <Button onClick={this.signin}>Registrar-se</Button>
+              <Button onClick={this.login}>Entrar</Button>
             </ButtonGroup>
            </div>
           </div>
