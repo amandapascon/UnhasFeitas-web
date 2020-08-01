@@ -19,6 +19,7 @@ const FooterWrapper = styles.nav`
 
     background: var(--black);
     border-top: 2px solid var(--primary);
+    font-family: 'ABeeZee', sans-serif;
 `
 const P = styles.p`
     font-weight: bold;

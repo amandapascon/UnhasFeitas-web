@@ -29,7 +29,7 @@ const Menu = styles.nav`
     padding-right: 5%;
 
     background: var(--primary);
-    border-bottom: 2px solid var(--gray);
+    border-bottom: 2px solid var(--black);
 `
 const P = styles.p`
     font-weight: bold;

@@ -2,29 +2,35 @@ import React from  'react'
 
 import Header from '../Header'
 
-import styled from 'styled-components'
+import styles from 'styled-components'
 import Footer from '../Footer';
 
-const Main = styled.main` 
+const Main = styles.main` 
     background-color: var(--graylight);
     display: flex;
     flex-direction: column;
-    height:100vh;
-    padding:40vh;
-    text-align: center;
-
-    @media(max-width: 800px){
-        padding:10vh;
-    }
+    height: 100vh;
+    padding: 5%;
+    padding-top: 94px;
+    padding-bottom: 34px;
 `;
+
+const Div = styles.div`
+    display: flex;
+    flex-direction: column;
+    margin auto 0;
+    text-align: center;
+`
 
 export default function PageDefault ({children}){
     return(
         <>
         <Header/>
-        <Main>
-            {children}
-        </Main>  
+            <Main>
+                <Div>
+                    {children}
+                </Div>
+            </Main>  
         <Footer/> 
         </>
     )

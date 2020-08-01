@@ -12,11 +12,15 @@ const ButtonLink = styles.button`
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    margin: 5% 0;
     outline: none;
     padding: 16px 24px;
     text-decoration: none;
 
-    margin auto 0;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-family: 'ABeeZee', sans-serif;
 
     transition: opacity .3s;
     &:hover,

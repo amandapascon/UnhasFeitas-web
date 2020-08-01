@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from 'styled-components'
 import { Link } from 'react-router-dom'
 
 //importando componetes
@@ -9,8 +8,8 @@ import Button from '../../components/Button'
 export default function Home(){
   return(
     <PageDefault>
-      <Button as={Link} to='/'>Cadastrar</Button>
-      <Button as={Link} to='/'>Entrar</Button>        
+      <Button as={Link} to='/signin'>Cadastrar</Button>
+      <Button as={Link} to='/login'>Entrar</Button>        
     </PageDefault>
   )
 }

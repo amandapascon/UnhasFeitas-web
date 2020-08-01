@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from 'styled-components'
 import { Link } from 'react-router-dom'
+import Label from '../../components/Label'
 
 //importando componetes
 import PageDefault from '../../components/PageDefault'
@@ -14,7 +15,10 @@ export default function Login(){
   return(
     <PageDefault>
       <Form>
-        <Button as={Link} to='/'></Button>
+        <Label id='telefone' name='telefone' label='telefone'></Label>
+        <Label></Label>
+        <br></br>
+        <Button as={Link} to='/'>Entrar</Button>
       </Form>
     </PageDefault>
   )
