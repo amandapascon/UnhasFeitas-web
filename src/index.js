@@ -7,8 +7,8 @@ import { Route, BrowserRouter, Switch, Redirect } from 'react-router-dom'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Signin from './pages/Signin'
-//import Chekin from './pages/Chekin'
-//import Newpackage from './pages/Newpackage'
+import Checkin from './pages/Checkin'
+import Newpackage from './pages/Newpackage'
 
 //styles global
 import './index.css';
@@ -17,9 +17,11 @@ ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
         <Switch>
-          <Route component={Home} path='/' exact />
-          <Route component={Login} path='/login' exact />
-          <Route component={Signin} path='/signin' exact />
+          <Route component={Home} path='/' exact/>
+          <Route component={Login} path='/login' exact/>
+          <Route component={Signin} path='/signin' exact/>
+          <Route component={Checkin} path='/checkin' exact/>
+          <Route component={Newpackage} path='/newpackage' exact/>
           <Redirect push={false} to='/' />
         </Switch>
       </BrowserRouter>

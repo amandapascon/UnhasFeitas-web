@@ -7,12 +7,11 @@ const ButtonLink = styles.button`
     border-radius: 5px;
     box-shadow: 5px 4px 5px var(--gray);
     box-sizing: border-box;
-    background: var(--primary);
-    color: var(--black);
+    background: ${props => props.color};
+    color: ${props => props.textcolor};
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    margin: 5% 0;
     outline: none;
     padding: 16px 24px;
     text-decoration: none;
@@ -29,10 +28,16 @@ const ButtonLink = styles.button`
       }
 `
 
+const Div = styles.div`
+      margin-bottom:15%;
+`
+
 export default function Button(props){
     return(
-        <ButtonLink as={Link} to={props.to}>
+    <Div>
+        <ButtonLink as={Link} to={props.to} textcolor={props.textcolor} color={props.color}>
             {props.children}
         </ButtonLink>
+    </Div>    
     )
 }
