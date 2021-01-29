@@ -3,24 +3,24 @@ import styles from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const ButtonLink = styles.button`
-    border-bottom: 1px solid var(--black);
-    border-radius: 5px;
-    box-shadow: 5px 4px 5px var(--gray);
-    box-sizing: border-box;
     background: ${props => props.color};
     color: ${props => props.textcolor};
+
     cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Text Me One', sans-serif;
     outline: none;
     padding: 16px 24px;
     text-decoration: none;
 
-    margin-left: 20%;
-    margin-right: 20%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px var(--darkgrey);
 
-    font-family: 'ABeeZee', sans-serif;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     transition: opacity .3s;
     &:hover,
     &:focus {
@@ -29,7 +29,7 @@ const ButtonLink = styles.button`
 `
 
 const Div = styles.div`
-      margin-bottom:15%;
+      margin-bottom: 5%;
 `
 
 export default function Button(props){

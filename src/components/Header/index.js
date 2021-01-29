@@ -25,24 +25,20 @@ const Menu = styles.nav`
     top: 0;
     left: 0;
     right: 0;
-    padding-left: 5%;
-    padding-right: 5%;
 
-    background: var(--primary);
-    border-bottom: 2px solid var(--black);
+    background: var(--pink);
+    box-shadow: 0px -5px 15px var(--black);
 `
 const P = styles.p`
     font-weight: bold;
-    font-size: 30px;
-    font-family: 'Knewave', cursive;
+    font-size: 50px;
+    font-family: 'Playlist', sans-serif;
+    color: var(--black);
 `
 
 export default function Header (){
     return(
         <Menu>
-            <Link to='/'>
-                <LogoLink className="Logo" src={Logo} alt="Logo"/>
-            </Link>
             <P>Unhas Feitas</P>
         </Menu>
     )

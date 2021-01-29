@@ -1,12 +1,14 @@
-* {
-  font-family: 'ABeeZee', sans-serif;
-  box-sizing: border-box;
+@font-face {
+  font-family: Playlist;
+  src: url(./assets/fonts/Playlist\ Script.otf);
+  font-style: normal;
+  font-weight: 100;
 }
 
 :root{
-  --primary:#FFEEEE;
-  --gray:#585858;
-  --graylight:#C4C4C4;
+  --primary:#f7d0b7;
+  --pink: #e87b63;
+  --darkgrey: #545454;
   --black:#000000;
 }
 

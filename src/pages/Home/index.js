@@ -8,8 +8,8 @@ import Button from '../../components/Button'
 export default function Home(){
   return(
     <PageDefault>
-      <Button color="#FFEEEE" textcolor="#000" as={Link} to='/signin'>Cadastrar</Button>
-      <Button color="#FFEEEE" textcolor="#000" as={Link} to='/login'>Entrar</Button>        
+      <Button color="#C4C4C4" textcolor="#000" as={Link} to='/signin'>CADASTRAR</Button>
+      <Button color="#C4C4C4" textcolor="#000" as={Link} to='/login'>ENTRAR</Button>        
     </PageDefault>
   )
 }
