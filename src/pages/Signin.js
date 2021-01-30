@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 //importando componetes
-import PageDefault from '../../components/PageDefault'
-import Button from '../../components/Button'
-import Label from '../../components/Label'
-import Form from '../../components/Form'
+import PageDefault from '../components/PageDefault'
+import Button from '../components/Button'
+import Label from '../components/Label'
+import Form from '../components/Form'
 
 export default function Signin(){
   return(

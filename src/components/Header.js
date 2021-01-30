@@ -1,17 +1,6 @@
 import React from 'react';
 import styles from 'styled-components'
 
-import Logo from '../../assets/logo.png'
-import { Link } from 'react-router-dom';
-
-const LogoLink = styles.img`
-    max-width: 80px;
-
-    @media (max-width: 800px) {
-        .Logo {
-          max-width: 105px;
-        }
-`
 const Menu = styles.nav`
     width: 100%;
     height: 94px;
@@ -31,9 +20,12 @@ const Menu = styles.nav`
 `
 const P = styles.p`
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Playlist', sans-serif;
     color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export default function Header (){

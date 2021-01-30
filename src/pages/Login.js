@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Label from '../../components/Label'
 
 //importando componetes
-import PageDefault from '../../components/PageDefault'
-import Button from '../../components/Button'
-import Form from '../../components/Form'
+import PageDefault from '../components/PageDefault'
+import Button from '../components/Button'
+import Form from '../components/Form'
+import Label from '../components/Label'
 
 export default function Login(){
   return(

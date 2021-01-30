@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 //importando componetes
-import PageDefault from '../../components/PageDefault'
-import Button from '../../components/Button'
+import PageDefault from '../components/PageDefault'
+import Button from '../components/Button'
 
 export default function Home(){
   return(

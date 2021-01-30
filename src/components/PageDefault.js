@@ -1,9 +1,8 @@
 import React from  'react'
 
-import Header from '../Header'
-
 import styles from 'styled-components'
-import Footer from '../Footer';
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const Main = styles.main` 
     background-color: var(--primary);

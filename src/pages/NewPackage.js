@@ -1,9 +1,10 @@
 import React from 'react'
 
-import PageDefault from '../../components/PageDefault'
-import Div from '../../components/Div'
-import Button from '../../components/Button'
-import Select from '../../components/Select'
+//importando componetes
+import PageDefault from '../components/PageDefault'
+import Div from '../components/Div'
+import Select from '../components/Select'
+import Button from '../components/Button'
 
 
 export default function Plans(){

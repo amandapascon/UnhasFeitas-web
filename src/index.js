@@ -8,7 +8,9 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Signin from './pages/Signin'
 import Checkin from './pages/Checkin'
-import Newpackage from './pages/Newpackage'
+import Newpackage from './pages/NewPackage'
+import HomePack from './pages/HomePack'
+import Historic from './pages/Historic'
 
 //styles global
 import './index.css';
@@ -21,7 +23,9 @@ ReactDOM.render(
           <Route component={Login} path='/login' exact/>
           <Route component={Signin} path='/signin' exact/>
           <Route component={Checkin} path='/checkin' exact/>
+          <Route component={HomePack} path='/homePack' exact/>
           <Route component={Newpackage} path='/newpackage' exact/>
+          <Route component={Historic} path='/historic' exact/>
           <Redirect push={false} to='/' />
         </Switch>
       </BrowserRouter>
