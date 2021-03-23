@@ -3,7 +3,6 @@ import React from 'react'
 //importando componetes
 import Form from '../components/Form'
 import Button from '../components/Button'
-import Div from '../components/Div'
 import Paragraph from '../components/Paragraph'
 import MiniParagraph from '../components/MiniParagraph'
 import PageDefault from '../components/PageDefault'
