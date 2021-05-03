@@ -13,12 +13,12 @@ import DivBox from '../components/DivBox'
 
 const PopUp = styles.div`
   margin: auto;
-  width: 30%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  margin-top:50%;
-  background: var(--lightgrey);
-  border:3px solid white; 
+  margin-top:80%;
+  background: var(--pink);
+  border:3px solid var(--primary); 
   color: white;
 
   .title {
@@ -76,8 +76,6 @@ export default class HomePack extends Component{
                     {/* <Button color="#C4C4C4" textcolor="#000" to='/Scheduling'>VER AGENDAMENTO</Button> */}       
                     <Button onClick={() => this.setState( { popup_open: true } )} color="#C4C4C4" textcolor="#000">VER AGENDAMENTO</Button> 
                     <Button color="#C4C4C4" textcolor="#000" to='/Historic'>HISTÓRICO</Button> 
-                    <br></br>
-                    <MiniParagraph>PLANO PAGO</MiniParagraph>
                 </Form>                
             </PageDefault>
             {this.renderPopUp()}
