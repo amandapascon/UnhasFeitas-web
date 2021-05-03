@@ -3,7 +3,7 @@ import styles from 'styled-components'
 
 const Menu = styles.nav`
     width: 100%;
-    height: 94px;
+    height: 50px;
     z-index: 100;
 
     display: flex;
@@ -17,6 +17,10 @@ const Menu = styles.nav`
 
     background: var(--pink);
     box-shadow: 0px -5px 15px var(--black);
+
+    @media (max-width: 400px) {
+        height: 40px;
+    }
 `
 const P = styles.p`
     font-weight: bold;
@@ -26,6 +30,10 @@ const P = styles.p`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 400px) {
+        font-size: 20px;
+    }
 `
 
 export default function Header (){

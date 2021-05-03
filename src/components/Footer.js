@@ -18,11 +18,19 @@ const FooterWrapper = styles.nav`
     background: var(--pink);
     box-shadow: 0px 5px 15px var(--black);
     font-family: 'Text Me One', sans-serif;
+
+    @media (max-width: 400px) {
+        height: 40px;
+    }
 `
 const P = styles.p`
     font-weight: bold;
     font-size: 20px;
     color: var(--black);
+
+    @media (max-width: 400px) {
+        font-size: 13px;
+    }
 `
 
 export default function Footer (){
