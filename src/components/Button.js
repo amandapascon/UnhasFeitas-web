@@ -34,8 +34,8 @@ const Div = styles.div`
 
 export default function Button(props){
     return(
-    <Div>
-        <ButtonLink as={Link} to={props.to} textcolor={props.textcolor} color={props.color}>
+    <Div >
+        <ButtonLink as={Link} to={props.to} onClick={props.onClick} textcolor={props.textcolor} color={props.color}>
             {props.children}
         </ButtonLink>
     </Div>    
