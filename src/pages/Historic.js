@@ -2,13 +2,15 @@ import React from 'react'
 import styles from 'styled-components'
 
 import PageDefault from '../components/PageDefault'
+import MiniParagraph from '../components/MiniParagraph'
 
-const Paragraph = styles.h1`
+const P = styles.h1`
   text-align: center;
   margin: 10 auto;
   font-size: 2.5vh;
   text-transform: uppercase;
   color: var(--white);
+  font-family: 'Text Me One', sans-serif;
 
   height: 100%;
   width: 100%;
@@ -26,6 +28,7 @@ const Subtitle = styles.span`
     height: fit-content;
     padding: 8px;
     font-size: 2vh;
+    font-family: 'Text Me One', sans-serif;
 `
 const DivTalk = styles.div`
   border-radius: 5px;
@@ -42,18 +45,19 @@ const DivTalk = styles.div`
 export default function Historic() {
     return(
         <PageDefault>
+            <MiniParagraph>HISTÓRICO ATUAL</MiniParagraph>
             <DivTalk>
-                <Paragraph>12/10/2021 - 09h30</Paragraph>
+                <P>12/10/2021 - 09h30</P>
                 <Subtitle>Pé e Mão</Subtitle>
             </DivTalk>
             <br></br>
             <DivTalk>
-                <Paragraph>12/10/2021 - 09h30</Paragraph>
+                <P>12/10/2021 - 09h30</P>
                 <Subtitle>Pé e Mão</Subtitle>
             </DivTalk>
             <br></br>
             <DivTalk>
-                <Paragraph>12/10/2021 - 09h30</Paragraph>
+                <P>12/10/2021 - 09h30</P>
                 <Subtitle>Pé e Mão</Subtitle>
             </DivTalk>
             

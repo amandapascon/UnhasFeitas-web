@@ -10,6 +10,8 @@ import Signin from './pages/Signin'
 import HomePack from './pages/HomePack'
 import Historic from './pages/Historic'
 import Scheduling from './pages/Scheduling'
+import HomeADM from './pages/HomeADM'
+
 //styles global
 import './index.css';
 
@@ -23,6 +25,7 @@ ReactDOM.render(
           <Route component={HomePack} path='/homePack' exact/>
           <Route component={Historic} path='/historic' exact/>
           <Route component={Scheduling} path='/Scheduling' exact/>
+          <Route component={HomeADM} path='/HomeADM' exact/>
           <Redirect push={false} to='/' />
         </Switch>
       </BrowserRouter>
