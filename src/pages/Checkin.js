@@ -8,7 +8,6 @@ const P = styles.h1`
   text-align: center;
   margin: 10 auto;
   font-size: 2.5vh;
-  text-transform: uppercase;
   color: var(--white);
   font-family: 'Text Me One', sans-serif;
 
@@ -29,6 +28,8 @@ const Subtitle = styles.span`
     padding: 8px;
     font-size: 2vh;
     font-family: 'Text Me One', sans-serif;
+
+    cursor: pointer;
 `
 const DivTalk = styles.div`
   border-radius: 5px;
@@ -44,22 +45,25 @@ const DivTalk = styles.div`
   margin-bottom: 5%;
 `
 
-export default function Historic() {
+export default function Checkin() {
     return(
         <PageDefault>
-            <MiniParagraph>HISTÓRICO ATUAL</MiniParagraph>
+            <MiniParagraph>CHECK-IN</MiniParagraph>
             <DivTalk>
-                <P>12/10/2021 - 09h30</P>
-                <Subtitle>Pé e Mão</Subtitle>
+                <P>
+                    Amanda Pascon <br></br>
+                    Pé e Mão <br></br>
+                    12/10/2021 - 09h30
+                </P>
+                <Subtitle>Realizar Check-in</Subtitle>
             </DivTalk>
             <DivTalk>
-                <P>12/10/2021 - 09h30</P>
-                <Subtitle>Pé e Mão</Subtitle>
-            </DivTalk>
-            <br></br>
-            <DivTalk>
-                <P>12/10/2021 - 09h30</P>
-                <Subtitle>Pé e Mão</Subtitle>
+                <P>
+                    Amanda Pascon <br></br>
+                    Pé e Mão <br></br>
+                    12/10/2021 - 09h30
+                </P>
+                <Subtitle>Realizar Check-in</Subtitle>
             </DivTalk>
             
         </PageDefault>

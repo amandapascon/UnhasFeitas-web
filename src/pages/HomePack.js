@@ -20,25 +20,6 @@ const PopUp = styles.div`
   background: var(--pink);
   border:3px solid var(--primary); 
   color: white;
-
-  .title {
-    text-align: center;
-    padding: 30px;
-    margin: 0 auto;
-    font-size: 2.5vh;
-    text-transform: uppercase;
-    color: var(--white);
-
-    display: flex;
-    justify-content: center;
-  }
-
-  .description {
-    padding: 30px;
-    text-align justify;
-    font-size: 18px;
-    height: 100%;
-  }
 `
 
 export default class HomePack extends Component{

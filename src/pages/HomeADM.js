@@ -30,6 +30,9 @@ const DivTalk = styles.div`
   justify-content: center;
   background: var(--pink);
   width: 80%;
+  margin-bottom: 5%;
+
+  cursor: pointer;
 `
 
 export default function Home(){
